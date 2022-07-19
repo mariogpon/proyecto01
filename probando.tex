@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage{Sweave}
+\begin{document}
+\input{probando-concordance}
+hola
+\begin{Schunk}
+\begin{Sinput}
+> #Trabajando con funciones
+> #function(){}
+> 
+> #Creando primera funcion
+> suma <- function(x,y){
++   x+y
++   
++ }
+> suma(2,5)
+\end{Sinput}
+\begin{Soutput}
+[1] 7
+\end{Soutput}
+\begin{Sinput}
+> suma(5,2)
+\end{Sinput}
+\begin{Soutput}
+[1] 7
+\end{Soutput}
+\begin{Sinput}
+> a <- c(2, 5, -3, 10, 4, 9, 19)
+> b <- c(-2, -1, 11, 5, 2, 7, 4)
+> c <- c(1, 5)
+> suma(a,b)
+\end{Sinput}
+\begin{Soutput}
+[1]  0  4  8 15  6 16 23
+\end{Soutput}
+\begin{Sinput}
+> suma(a,c)
+\end{Sinput}
+\begin{Soutput}
+[1]  3 10 -2 15  5 14 20
+\end{Soutput}
+\end{Schunk}
+
+
+
+\end{document}

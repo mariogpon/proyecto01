@@ -1,0 +1,5 @@
+*-concordance.tex
+*.log
+*.synctex.gz
+gnuplottex/
+*.gnuploterrors
